@@ -11,7 +11,7 @@ import numpy as np
 
 def read_csv_with_comma_decimal(file_name, sep=';'):
     """
-    CSV dosyasını okur ve virgülden (.)'e dönüştürerek sayısal kolonları float yapar.
+    CSV dosaasını okur ve virgülden (.)'e dönüştürerek sayısal kolonları float yapar.
     """
     df = pd.read_csv(file_name, sep=sep, encoding='utf-8')
     
